@@ -1,0 +1,47 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+.main{
+ height: 2400px;
+ width: 2400px;
+ border: 5px solid red;
+}
+
+.rows_odd,.rows_even{
+ height: 300px;
+ width: 100%;
+ background: skyblue;
+ display: flex;
+ flex-wrap: nowrap;
+ flex-direction: row;
+}
+
+.rows_odd #white{
+ height: 300px;
+ width: 300px;
+ background: white;
+}
+
+.rows_odd #black{
+ height:300px;
+ width: 300px;
+ background: black;
+}
+
+.rows_even{
+ flex-direction: row-reverse;
+}
+
+.rows_even #white{
+ height: 300px;
+ width: 300px;
+ background: white;
+}
+
+.rows_even #black{
+ height:300px;
+ width: 300px;
+ background: black;
+}
